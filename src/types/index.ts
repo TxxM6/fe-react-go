@@ -11,3 +11,7 @@ export type Credential = {
   email: string
   password: string
 }
+type Result = {
+  response: { data: { message: string; status?: number | string } | string }
+}
+export type Fail = Result & Error
