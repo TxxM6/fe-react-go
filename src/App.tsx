@@ -21,7 +21,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Auth />} />
-        <Route path="/" element={<Todo />} />
+        <Route path="/todo" element={<Todo />} />
       </Routes>
     </BrowserRouter>
   )
